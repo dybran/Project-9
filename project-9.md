@@ -235,7 +235,11 @@ We have just __Automated Tooling Website Deployment with Jenkins (CI) tool.__
 
 __Problem ecountered during this project:__
 
-- The __Rhel 9 version__ is unstable at the time of this documentation. In the __Publish over SSH__ configuration, the __"Test Configuration"__ was not returning the required output i.e __"success"__ when using the __RHEL version 9__.
+At the time of this documentation, the __RHEL AMI version 9__ was showing error when configuring the __Publish over SSH__. The __"Test Configuration"__ was not returning the required result i.e __"success"__ when using the __RHEL  AMI version 9__.
+
+__Solution:__  
+
+ Using the __RHEL AMI version 8__ fixed this problem.
 
 
 
