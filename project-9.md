@@ -233,6 +233,10 @@ To make sure that the files in /mnt/apps have been updated, connect to the NFS s
 
 We have just __Automated Tooling Website Deployment with Jenkins (CI) tool.__
 
+__Problem ecountered during this project:__
+
+- The __Rhel 9 version__ is unstable at the time of this documentation. In the __Publish over SSH__ configuration, the __"Test Configuration"__ was not returning the required output i.e __"success"__ when using the __RHEL version 9__.
+
 
 
 
