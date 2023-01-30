@@ -1,2 +1,2 @@
 # Project-9
-Automating Tooling Website Deployment with Continuous Integration (CI) 
+Automating Tooling Website Deployment with Jenkins CI-Freestyle
