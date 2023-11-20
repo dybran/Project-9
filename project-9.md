@@ -10,7 +10,7 @@ __Continuous integration__ is a DevOps software development practice where devel
 
 According to Circle CI, Continuous integration (CI) is a software development strategy that increases the speed of development while ensuring the quality of the code that teams deploy. Developers continually commit code in small increments (at least daily, or even several times a day), which is then automatically built and tested before it is merged with the shared repository.
 
-In our project we are going to utilize Jenkins CI capabilities to make sure that every change made to the source code in GitHub [my https://github.com/dybran/tooling will be automatically be updated to the Tooling Website.
+In our project we are going to utilize Jenkins CI capabilities to make sure that every change made to the source code in [my GitHub](https://github.com/dybran/tooling) will automatically be updated to the Tooling Website.
 
 Our 3 tier achitecture will look like this
 
@@ -41,13 +41,13 @@ Install Jenkins
 
 ```$ sudo apt update -y```
 
-``` $ sudo apt-get install jenkins```
+` $ sudo apt-get install jenkins`
 
 ![image](./images/install-jenkins.PNG)
 
 Make sure Jenkins is up and running
 
-```$ sudo systemctl status jenkins```
+`$ sudo systemctl status jenkins`
 
 ![image](./images/jenkins-status.PNG)
 
@@ -57,7 +57,7 @@ By default Jenkins server uses __TCP port 8080__. We open it in our Inbound Rule
 
 We access jenkins from the broswer using
 
-```http://<Jenkins-Server-Public-IP-Address>:8080```
+`http://<Jenkins-Server-Public-IP-Address>:8080`
 
 You will be prompted to provide a default admin password
 
@@ -66,7 +66,7 @@ You will be prompted to provide a default admin password
 We can retrive the admin password from the path indicated on the screen.
 To do this we have to connect to the instance through our terminal and run the command
 
-```$ sudo cat /var/lib/jenkins/secrets/initialAdminPassword```
+`$ sudo cat /var/lib/jenkins/secrets/initialAdminPassword`
 
 ![image](./images/adminpas.PNG)
 
